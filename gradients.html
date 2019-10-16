@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradients</title>
+    <style>
+        body{
+            background-color: #e1ebbd;
+        }
+        .gradient_01{
+            width:400px;
+            height: 400px;
+            background: linear-gradient(green,red);
+        }
+        .gradient_02{
+            width:400px;
+            height: 400px;
+            background: linear-gradient(90deg,green,red);
+        }
+        .gradient_03{
+            width: 400px;
+            height:400px;
+            background:linear-gradient(to left, green, red);
+        }
+        .gradient_04{
+            width:400px;
+            height:400px;
+            background:linear-gradient(to right bottom,rgb(196,214,0),rgb(223,25,149));
+        }
+        .gradient_05{
+            width: 400px;
+            height:400px;
+            background: radial-gradient(100px 30px,red,orange,yellow);
+        }
+        .gradient_06{
+            width:400px;
+            height: 400px;
+            background: linear-gradient(65deg,red,orange,yellow,green,blue,violet);
+        }
+        .gradient_07{
+            width:400px;
+            height: 400px;
+            background: linear-gradient(65deg,red,orange 25px,yellow,green 100px,blue,violet);
+        }
+        .gradient_08{
+            width:400px;
+            height:400px;
+            background:linear-gradient(to right bottom,rgba(196,214,0, .25),rgb(223,25,149));
+        }
+        .gradient_09{
+            width:400px;
+            height:400px;
+            background:
+                    linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+                    linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+                    linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+            background-color:#e1ebbd;
+            background-size: 128px 128px;
+        }
+        .gradient_10{
+            width:400px;
+            height:400px;
+            background-color:silver;
+            background-image:
+                    radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+                    radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+                    radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+                    radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+                    radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+            background-size: 100px 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="gradient_01"></div>
+<div class="gradient_02"></div>
+<div class="gradient_03"></div>
+<div class="gradient_04"></div>
+<div class="gradient_05"></div>
+<div class="gradient_06"></div>
+<div class="gradient_07"></div>
+<div class="gradient_08"></div>
+<div class="gradient_09"></div>
+<div class="gradient_10"></div>
+</body>
+</html>
